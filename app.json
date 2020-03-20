@@ -1,0 +1,22 @@
+{
+  "name": "Inlets Reverse Proxy",
+  "description": "Using inlets as a service tunnel and reverse proxy",
+  "repository": "https://github.com/ngxson/inlets-heroku.git",
+  "website": "https://github.com/ngxson/inlets-heroku",
+  "logo": "https://imx.ngxson.com/wp-content/uploads/sites/4/2020/03/87099671_2604775656317114_6311660071621230592_n.jpg",
+  "env": {
+    "TOKEN": {
+      "description": "Your secret password (token). Ideally should be a random string.",
+      "value": ""
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "buildpacks": [
+    {"url": "https://github.com/maximkulkin/heroku-buildpack-dummy.git"}
+  ]
+}
