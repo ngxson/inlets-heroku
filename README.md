@@ -16,6 +16,18 @@ Just click this button:
 
 P/s: for the password, you can choose a simple one like `this1sMypassw0rd`
 
+## How to use
+
+For Windows® users:
+- Open and edit `client/run-windows.bat`
+- Change `TOKEN`, `REMOTE`, `LOCALPORT` to match your settings
+- Double click on `run-windows.bat`
+
+For Linux users:
+- Open and edit `client/run-linux.sh`
+- Change `TOKEN`, `REMOTE`, `LOCALPORT` to match your settings
+- `cd inlets-heroku/client && ./run-linux.sh`
+
 ## Thanks to
 
 `inlets` dev team for their excellent work
