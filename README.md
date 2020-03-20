@@ -2,13 +2,13 @@
 
 ## What is this?
 
-Briefly, `inlets` allow you to expose your local host to the Internet, through any NAT or firewall.
+Briefly, `inlets` let you expose your localhost to the Internet, through any NAT or firewall.
 
-It can be an alternative solution to `ngrok` or `localtunnel`. It can be deployed to **heroku**, so you can have your own **fixed address**, which will be better if you want to test a **webhook server**.
+It can be an alternative solution to `ngrok` or `localtunnel`. Since it can be deployed to **heroku**, you can have your own **fixed address**, which is better for testing a **webhook server**.
 
 The original project can be found here: [https://github.com/inlets/inlets](https://github.com/inlets/inlets)
 
-## How to install
+## Setup the server
 
 Just click this button:
 
@@ -17,6 +17,8 @@ Just click this button:
 P/s: for the password, you can choose a simple one like `this1sMypassw0rd`
 
 ## How to use
+
+On your local machine:
 
 For Windows® users:
 - Open and edit `client/run-windows.bat`
