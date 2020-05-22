@@ -8,6 +8,8 @@ It can be an alternative solution to `ngrok` or `localtunnel`. Since it can be d
 
 The original project can be found here: [https://github.com/inlets/inlets](https://github.com/inlets/inlets)
 
+Tutorial on LinkedIn: [Set your own "ngrok alternative"​ on Heroku](https://www.linkedin.com/pulse/set-your-own-ngrok-alternative-heroku-xuan-son-nguyen/)
+
 ## Setup the server
 
 Just click this button:
