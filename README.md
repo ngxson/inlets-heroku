@@ -38,5 +38,5 @@ For MacOS users:
 
 ## Thanks to
 
-@inlets dev team for their excellent work
-@sahilmob for MacOS script
+- [inlets](https://github.com/inlets) dev team for their excellent work
+- [sahilmob](https://github.com/sahilmob) for MacOS script
