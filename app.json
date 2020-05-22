@@ -3,7 +3,7 @@
   "description": "Using inlets as a service tunnel and reverse proxy",
   "repository": "https://github.com/ngxson/inlets-heroku.git",
   "website": "https://github.com/ngxson/inlets-heroku",
-  "logo": "https://github.com/inlets/inlets/blob/master/docs/inlets-logo-sm.png",
+  "logo": "https://raw.githubusercontent.com/inlets/inlets/master/docs/inlets-logo-sm.png",
   "env": {
     "TOKEN": {
       "description": "Your secret password (token). Ideally should be a random string.",
