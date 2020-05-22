@@ -28,8 +28,15 @@ For Windows® users:
 For Linux users:
 - Open and edit `client/run-linux.sh`
 - Change `TOKEN`, `REMOTE`, `LOCALPORT` to match your settings
-- `cd inlets-heroku/client && ./run-linux.sh`
+- `cd inlets-heroku/client && chmod a+x run-linux.sh && ./run-linux.sh`
+
+For MacOS users:
+- Install inlets using `brew install inlets`
+- Open and edit `client/run-mac.sh`
+- Change `TOKEN`, `REMOTE`, `UPSTREAM` to match your settings
+- `cd inlets-heroku/client && chmod a+x run-mac.sh && ./run-mac.sh`
 
 ## Thanks to
 
-`inlets` dev team for their excellent work
+@inlets dev team for their excellent work
+@sahilmob for MacOS script
