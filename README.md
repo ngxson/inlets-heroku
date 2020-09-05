@@ -1,5 +1,7 @@
 # Inlets Reverse Proxy
 
+Author: [ngxson](https://github.com/ngxson)
+
 ## What is this?
 
 Briefly, `inlets` let you expose your localhost to the Internet, through any NAT or firewall.
@@ -37,6 +39,10 @@ For MacOS users:
 - Open and edit `client/run-mac.sh`
 - Change `TOKEN`, `REMOTE`, `UPSTREAM` to match your settings
 - `cd inlets-heroku/client && chmod a+x run-mac.sh && ./run-mac.sh`
+
+## Troubleshoot
+
+For Windows: If it does not work, delete `inlets.exe` in `bin` folder, then try again.
 
 ## Thanks to
 
